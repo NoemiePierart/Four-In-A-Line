@@ -1,0 +1,76 @@
+@import url("components/banner.css");
+@import url("components/checkerboard.css");
+@import url("components/modal_player_selection.css");
+@import url("components/timer.css");
+
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'Montserrat', sans-serif;
+  color: #606060
+}
+
+h1, h2 {
+  text-shadow: 0px 1px rgba(0,0,0,0.2);
+  letter-spacing: 3px;
+  font-family: 'Amatic SC', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 0.8rem;
+}
+
+/* Buttons */
+
+.btn-flat {
+    color: black;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #f2dd3c;
+    transition: background 0.3s ease
+}
+
+.btn-flat:hover {
+  background: #dbc730;
+  color: white;
+}
+
+/* Login and register forms */
+
+.form-login {
+  border: red;
+  background: white;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  max-width: 500px
+}
+
+/* Footer */
+
+.footer {
+    background: white;
+    height: 55px;
+    color: rgba(0,0,0,0.3);
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Time's up Modal*/
+
+i {
+  color: #e42e61;
+  font-size: 2rem;
+}
